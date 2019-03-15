@@ -1,0 +1,4 @@
+# GrabPacketTool
+一个自动抢红包辅助工具。
+其原理很简单，只需继承系统辅助功能的一个服务类AccessibilityService，重写方法onAccessibilityEvent，从而可以监听通知栏的消息和页面的变化。
+通过反射调用系统底层api，控制页面的跳转到微信聊天页面，并监听微信页面的组件按钮，即可实现抢红包功能
